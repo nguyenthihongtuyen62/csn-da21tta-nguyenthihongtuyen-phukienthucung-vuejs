@@ -1,21 +1,17 @@
 <script setup>
 import TheSlider from '../components/TheSlider.vue'
-import Products from '../components/HomePage/NewProducts.vue'
 import PopularProducts from '../components/HomePage/PopularProducts.vue'
 import BuyProduct from '../components/BuyProduct.vue'
-import Partners from '../components/Partners.vue'
-import Advantage from '../components/TheAdvantage.vue'
+
 </script>
 
 <script>
 export default {
     component: {
         TheSlider,
-        Products,
         PopularProducts,
         BuyProduct,
-        // Partners,
-        Advantage,
+
     }
 }
 </script>
